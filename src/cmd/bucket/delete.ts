@@ -1,4 +1,3 @@
-import { prompt } from 'enquirer'
 import ora = require('ora')
 import * as yargs from 'yargs'
 import { BucketBaseCommand } from './bucket-base-command'
