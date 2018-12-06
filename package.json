@@ -1,6 +1,6 @@
 {
   "name": "@xgheaven/nos-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Cli tools to manage NOS",
   "bin": {
     "nos-cli": "./bin/nos-cli.js"
@@ -11,6 +11,16 @@
     "lint:fix": "tslint -p . --fix",
     "lint": "tslint -p ."
   },
+  "keywords": [
+    "nos",
+    "nos-cli",
+    "nos terminal",
+    "nos-node"
+  ],
+  "files": [
+    "dist",
+    "bin"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/XGHeaven/nos-node-cli"
