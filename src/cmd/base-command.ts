@@ -1,5 +1,5 @@
 import chalk from 'chalk'
-import * as yargs from 'yargs'
+import yargs from 'yargs'
 import { getConfig, NosCliConfig } from '../config'
 import { Command } from '../redstone/Command'
 

@@ -11,6 +11,7 @@ export class ObjectCommand extends ClientBaseCommand {
 
   builder(args: Argv) {
     return args
+      .demandCommand()
       .command(new ObjectPutCommand())
       .command(new ObjectGetCommand())
       .command(new ObjectDeleteCommand())
