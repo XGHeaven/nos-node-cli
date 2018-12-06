@@ -63,6 +63,17 @@ Options:
 6. 并不完全按照 Linux 的工作形式，即使无出错，也可能会打印一些提示信息。这一点和七牛的 [qrsctl](https://developer.qiniu.com/kodo/tools/1300/qrsctl#10) 不太一致。
    但是保证操作成功，退出码一定为 0。再说命令行是给人用的，不做的好看点怎么可以呢 (^\_^)
 
+### 自动补全
+
+> 暂时不支持 zsh/fish
+
+```bash
+nos-cli completion >> ~/.bashrc # 生成补全脚本
+
+source ~/.bashrc
+# or 重启终端
+```
+
 ### 账户
 
 首先设置账户，当然你也可以跳过这一节不设置账户，而是在执行命令的时候手动指定必要的参数。

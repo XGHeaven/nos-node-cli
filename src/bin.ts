@@ -42,5 +42,6 @@ const argv = yargs
   .command(new ShortcutPutCommand())
   .command(new ShortcutGetCommand())
   .alias('h', 'help')
+  .completion()
   .scriptName(BIN_NAME)
   .demandCommand().argv
